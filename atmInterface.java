@@ -53,6 +53,7 @@ class ATM extends user{
 
             case 4 :
                 System.out.println("Logged out");
+                System.out.println("Thank you for your visit");
                 break;
         }
     }
@@ -71,6 +72,7 @@ class ATM extends user{
                 oprations();
             }else{
                 System.out.println("Logged out");
+                System.out.println("Thank you for your visit");
             }
         }else{
             System.out.println("Amount entered exceeds the current account balance");
@@ -82,6 +84,7 @@ class ATM extends user{
                 oprations();
             }else{
                 System.out.println("Logged out");
+                System.out.println("Thank you for your visit");
             }
 
         }
@@ -98,7 +101,8 @@ class ATM extends user{
             System.out.println("Please enter valid amount\n");
             oprations();
         }else{
-        System.out.println("Logged out");
+            System.out.println("Logged out");
+            System.out.println("Thank you for your visit");
         }
     }
     public void show_balance(){
@@ -110,7 +114,8 @@ class ATM extends user{
             System.out.println("Please enter valid amount\n");
             oprations();
         }else{
-        System.out.println("Logged out");
+            System.out.println("Logged out");
+            System.out.println("Thank you for your visit");
         }
     }
 }
